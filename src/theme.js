@@ -1,23 +1,20 @@
 import { createContext, useState, useMemo } from "react";
 import { createTheme } from "@mui/material/styles";
-import { palette } from "@mui/system";
-import { colors } from "@mui/material";
-
 
 // color design 
 export const tokens = (mode) => ({
     ...(mode === 'dark'
         ? {
             grey: {
-                100: "#e0e0e0",
-                200: "#c2c2c2",
-                300: "#a3a3a3",
-                400: "#858585",
-                500: "#666666",
-                600: "#525252",
-                700: "#3d3d3d",
-                800: "#292929",
-                900: "#141414",
+                // 100: "#e0e0e0",
+                // 200: "#c2c2c2",
+                // 300: "#a3a3a3",
+                // 400: "#858585",
+                // 500: "#666666",
+                // 600: "#525252",
+                // 700: "#3d3d3d",
+                // 800: "#292929",
+                // 900: "#141414",
             },
             primary: {
                 100: "#d0d0d0",
@@ -66,15 +63,15 @@ export const tokens = (mode) => ({
         }
         : {
             grey: {
-                100: "#141414",
-                200: "#292929",
-                300: "#3d3d3d",
-                400: "#525252",
-                500: "#666666",
-                600: "#858585",
-                700: "#a3a3a3",
-                800: "#c2c2c2",
-                900: "#e0e0e0",
+                // 100: "#141414",
+                // 200: "#292929",
+                // 300: "#3d3d3d",
+                // 400: "#525252",
+                // 500: "#666666",
+                // 600: "#858585",
+                // 700: "#a3a3a3",
+                // 800: "#c2c2c2",
+                // 900: "#e0e0e0",
             },
             primary: {
                 100: "#040509",
@@ -134,7 +131,7 @@ export const themeSettings = (mode) => {
             ...(mode === 'dark'
                 ? {
                     primary: {
-                        main: colors.primary[500],
+                        main: colors.primary[100],
                     },
                     secondary: {
                         main: colors.greenAccent[500],
@@ -145,7 +142,7 @@ export const themeSettings = (mode) => {
                         light: colors.grey[100],
                     },
                     background: {
-                        default: colors.primary[500],
+                        default: colors.primary[900],
                     }
                 } : {
                     primary: {
@@ -160,7 +157,7 @@ export const themeSettings = (mode) => {
                         light: colors.grey[100],
                     },
                     background: {
-                        default: "#fcfcfc",
+                        default: "#fffff",
                     },
                 }),
         },
