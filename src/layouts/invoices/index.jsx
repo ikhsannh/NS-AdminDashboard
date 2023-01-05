@@ -41,7 +41,7 @@ const Invoices = () => {
             headerName: "Date",
             flex: 1,
         },
-   
+
     ]
 
     return (
@@ -76,11 +76,11 @@ const Invoices = () => {
                     },
                 }}
             >
-                <DataGrid 
+                <DataGrid
                     checkboxSelection
-                    rows={mockDataInvoices} 
+                    rows={mockDataInvoices}
                     columns={columns}
-                    />
+                />
             </Box>
 
         </Box>
