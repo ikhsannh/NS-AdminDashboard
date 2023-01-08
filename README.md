@@ -4,5 +4,5 @@
 
 ## Screen
 
-![Tablet](https://github.com/nashkispace/NS-AdminDashboard/blob/main/public/Tablet-view.gif)
+![Tablet](https://github.com/nashkispace/NS-AdminDashboard/blob/main/public/Tablet-View.gif)
 ![Desktop](https://github.com/nashkispace/NS-AdminDashboard/blob/main/public/Desktop-View.gif)
