@@ -1,6 +1,8 @@
-# Managemenet Dashboard
+# Admin Dashboard
 
-[Watch it on You Tube]().
+[Watch it on You Tube](https://youtu.be/SwiTG3ep_oM).
 
-## Dashboard Screen
+## Screen
 
+![Tablet](https://github.com/nashkispace/NS-AdminDashboard/blob/main/public/Tablet-view.gif)
+![Desktop](https://github.com/nashkispace/NS-AdminDashboard/blob/main/public/Desktop-View.gif)
